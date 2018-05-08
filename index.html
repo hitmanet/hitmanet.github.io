@@ -257,7 +257,7 @@
 
 
 
-			<section class="s-call inverse parallzone" id="section4" style="background-image:url(img/setwalls.ru-79122.jpg)">
+			<section class="s-call inverse" id="section4" style="background-image:url(img/setwalls.ru-79122.jpg)">
 				<div class="container">
 					<div class="row" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
 						<div class="col-md-5 col-sm-4 col-xl-4" data-aos="fade-up-right">
@@ -572,7 +572,13 @@
  $(document).ready(function() {
 	 let x = screen.width;
 	 let h =screen.height;
-	if(x>=1920){
+     if (x <= 700) {
+         document.querySelector('#head').classList.remove('parallzone');
+         document.querySelector('#section2').classList.remove('parallzone');
+         document.querySelector('#section2').style.backgroundSize = "cover";
+     }
+
+     if(x>=1920){
 	 var videobackground = new $.backgroundVideo($('.site-header'), {
 		 "align": "centerXY",
 		 "width": 1920,
@@ -593,11 +599,6 @@ else {
 	 head.style.backgroundImage = 'url(img/bg.jpg)';
 	 head.style.backgroundSize = 'cover';
 
-	 if (x <= 700) {
-		document.querySelector('#head').classList.remove('parallzone');
-		document.querySelector('#section2').classList.remove('parallzone');
-		document.querySelector('#section2').style.backgroundSize = "cover";
-	 }
 
 }
 
