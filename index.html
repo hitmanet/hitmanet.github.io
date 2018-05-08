@@ -212,7 +212,7 @@
 							<p>Наш бюджетный вариант, который, тем не менее, обладает возможностью звонить с себя, делать фото и даже выходить в интернет. У телефона экран с новым типом UPS матриц, а также влаго и пылезащита по стандарту XIO8. Его козырем является возможность за низкую цену пользоваться последней версией Vedroid
 							</p>
 							<span class="price text-center">Цена 100$</span><br>
-							<a href="#section4" class="button button-white">Заказать</a>
+							<a href="#section4" id="orderbtn1" class="button button-white">Заказать</a>
 						</div>
 						</div>
 					</div>
@@ -227,7 +227,7 @@
 								<p>Наш бюджетный вариант, который, тем не менее, обладает возможностью звонить с себя, делать фото и даже выходить в интернет. У телефона экран с новым типом UPS матриц, а также влаго и пылезащита по стандарту XIO8. Его козырем является возможность за низкую цену пользоваться последней версией Vedroid
 								</p>
 								<span class="price text-center">Цена 100$</span><br>
-								<a href="#section4" class="button button-white">Заказать</a>
+								<a href="#section4" id="orderbtn2" class="button button-white">Заказать</a>
 						</div>
 						</div>
 					</div>
@@ -242,7 +242,7 @@
 								<p>Наш бюджетный вариант, который, тем не менее, обладает возможностью звонить с себя, делать фото и даже выходить в интернет. У телефона экран с новым типом UPS матриц, а также влаго и пылезащита по стандарту XIO8. Его козырем является возможность за низкую цену пользоваться последней версией Vedroid
 								</p>
 								<span class="price text-center">Цена 100$</span><br>
-								<a href="#section4" class="button button-white">Заказать</a>
+								<a href="#section4" id="orderbtn3" class="button button-white">Заказать</a>
 						</div>
 						</div>
 					</div>
@@ -257,7 +257,7 @@
 								<p>Наш бюджетный вариант, который, тем не менее, обладает возможностью звонить с себя, делать фото и даже выходить в интернет. У телефона экран с новым типом UPS матриц, а также влаго и пылезащита по стандарту XIO8. Его козырем является возможность за низкую цену пользоваться последней версией Vedroid
 								</p>
 								<span class="price text-center">Цена 100$</span><br>
-								<a href="#section4" class="button button-white">Заказать</a>
+								<a href="#section4" id="orderbtn4" class="button button-white">Заказать</a>
 						</div>
 						</div>
 					</div>
@@ -283,7 +283,7 @@
 
 								<input type="text" name="Имя" placeholder="Ваше имя" required>
 								<input type="tel" name="Телефон" placeholder="Ваш телефон" required>
-								<select name="Модель для предзаказа">
+								<select id="selectord" name="Модель для предзаказа">
 													<option value disabled selected>Выбрать телефон..</option>
 													<option>Pro 4X (1000$)</option>
 													<option>Why 6s(10000$)</option>
@@ -460,8 +460,27 @@
 		$('body,html').animate({scrollTop: top}, 500);
 	});
 
+	$("#orderbtn1").on("click", function (event) {
+		$('#selectord option').eq(1).prop('selected',true);
+    });
 
-		function displayHideX(btnId){
+        $("#orderbtn2").on("click", function (event) {
+            $('#selectord option').eq(2).prop('selected',true);
+        });
+
+        $("#orderbtn3").on("click", function (event) {
+            $('#selectord option').eq(3).prop('selected',true);
+        });
+
+        $("#orderbtn4").on("click", function (event) {
+            $('#selectord option').eq(4).prop('selected',true);
+        });
+
+
+
+
+
+        function displayHideX(btnId){
 			var btn = document.getElementsByClassName('button-hide');
 			switch (btnId) {
 					case "#btn1":
