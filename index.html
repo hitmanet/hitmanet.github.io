@@ -481,7 +481,7 @@
 
 
         function displayHideX(btnId){
-			var btn = document.getElementsByClassName('button-hide');
+			let btn = document.getElementsByClassName('button-hide');
 			switch (btnId) {
 					case "#btn1":
 					if(btn[1].disabled === false && btn[2].disabled === false && btn[3].disabled === false){
@@ -589,8 +589,8 @@
 	});
 
 	function parallax(){
-		 var scrolled = $(window).scrollTop();
-		$('.parallzone').css('background-position', '0 '+(-scrolled*0.1)+'px');
+        let scrolled = $(window).scrollTop();
+        $('.parallzone').css('background-position', '0 '+(-scrolled*0.1)+'px');
 
 	}
 	var parallzone = document.getElementById('#parallzone');
@@ -606,8 +606,8 @@
          document.querySelector('#section2').style.backgroundSize = "cover";
      }
 
-     if(x>=1900){
-	 var videobackground = new $.backgroundVideo($('.site-header'), {
+     else if(x>=1900 && h >=1000){
+	 let videobackground = new $.backgroundVideo($('.site-header'), {
 		 "align": "centerXY",
 		 "width": 1920,
 		 "height": 1080,
