@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="11951">
-              <caret line="703" column="11" selection-start-line="703" selection-start-column="11" selection-end-line="703" selection-end-column="11" />
+              <caret line="708" column="11" selection-start-line="708" selection-start-column="11" selection-end-line="708" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/js/jquery.backgroundvideo.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="764">
-              <caret line="108" lean-forward="true" selection-start-line="8" selection-end-line="108" />
+              <caret line="108" selection-start-line="8" selection-end-line="108" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -57,7 +57,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -67,20 +67,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hitmanet.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hitmanet.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -113,14 +100,16 @@
       <workItem from="1525964376367" duration="781000" />
       <workItem from="1525972243026" duration="16000" />
       <workItem from="1526130703825" duration="65000" />
+      <workItem from="1526314468627" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="862000" />
+    <option name="totallyTimeSpent" value="936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.50641024" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -150,6 +139,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11951">
+          <caret line="703" column="11" selection-start-line="703" selection-start-column="11" selection-end-line="703" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.backgroundvideo.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" lean-forward="true" selection-start-line="8" selection-end-line="108" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10336">
           <caret line="608" column="28" selection-start-line="608" selection-start-column="28" selection-end-line="608" selection-end-column="28" />
         </state>
@@ -165,14 +171,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11951">
-          <caret line="703" column="11" selection-start-line="703" selection-start-column="11" selection-end-line="703" selection-end-column="11" />
+          <caret line="708" column="11" selection-start-line="708" selection-start-column="11" selection-end-line="708" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.backgroundvideo.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="764">
-          <caret line="108" lean-forward="true" selection-start-line="8" selection-end-line="108" />
+          <caret line="108" selection-start-line="8" selection-end-line="108" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

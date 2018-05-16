@@ -677,20 +677,20 @@
 			$('.parallzone').css('background-position', '0 ' + (-scrolled * 0.1) + 'px');
 
 		}
-		var parallzone = document.getElementById('#parallzone');
+		let parallzone = document.getElementById('#parallzone');
 
 
 
 		$(document).ready(function() {
 			let x = screen.width;
 			let h = screen.height;
-			if (x <= 700) {
+			if (x <= 1900) {
 				document.querySelector('#section2').classList.remove('parallzone');
 				document.querySelector('#section2').style.backgroundSize = "cover";
 				document.querySelector('.site-header').style.backgroundImage = "url(img/bg.jpg)";
 				document.querySelector('.site-header').classList.add('section-overlay');
 				document.querySelector('.site-header').classList.add('parallzone');
-				document.querySelector('.s-grid').style.display = "none";
+
 			} else if (x >= 1900 && h >= 1000) {
 				let videobackground = new $.backgroundVideo($('.site-header'), {
 					"align": "centerXY",
@@ -704,6 +704,10 @@
 					"loop": true,
 				})
 			}
+			if(x <= 700){
+                document.querySelector('.s-grid').style.display = "none";
+			}
+
 
 
 		});
